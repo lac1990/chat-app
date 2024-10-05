@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+## Project description
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile chat app built with React Native. Users will be able to share images and locations.
 
-## Get started
+## Features
+- take photos and share
+- choose photo from library to and share
+- customize theme 
+- share location 
+- send and receive messages in real time 
 
-1. Install dependencies
+## technologies used
+- React Native
+- Expo
+- Expo ImagePicker
+- Expo Location 
+- Google Firestone/Firebase
+- Gifted Chat Library 
+- Android Studio
 
-   ```bash
-   npm install
-   ```
+To run this app locally, follow these steps:
 
-2. Start the app
+- Clone this repository.
+- Set up Expo in your development environment:
 
-   ```bash
-    npx expo start
-   ```
+  - Install Expo and Expo CLI, as this is the platform you’ll use to build your app;
 
-In the output, you'll find options to open the app in a
+        npm install -g expo-cli
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+  - Install Expo Go app on your mobile device, so that you can test your app on your own mobile device;
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+    Search for the Expo Go app in the relevant app store for your device (iOS or Android)
 
-## Get a fresh project
+  - Create an Expo account.
 
-When you're ready, run:
+### Prerequisites
 
-```bash
-npm run reset-project
-```
+Before installing Expo, ensure you have a suitable version of Node installed. At the time of writing, Expo only supports Node 16.. at max.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Node.js: Download and install Node.js. For this you can use the nvm tool https://github.com/nvm-sh/nvm
 
-## Learn more
+    nvm install 16.19.0
+    nvm use 16.19.0
+    nvm alias default 16.19.0
 
-To learn more about developing your project with Expo, look at the following resources:
+Navigate to the chat-app directory and install all dependencies:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    npm install
